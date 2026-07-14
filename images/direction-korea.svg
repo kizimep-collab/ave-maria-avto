@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Korea import direction demo visual</title>
+  <desc id="desc">Self-made portfolio-safe interface visual for Korea market</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#202428"/><stop offset=".52" stop-color="#080a0b"/><stop offset="1" stop-color="#1e070a"/></linearGradient><filter id="b"><feGaussianBlur stdDeviation="24"/></filter></defs>
+  <rect width="900" height="620" fill="url(#bg)"/>
+  <g opacity=".12" stroke="#fff"><path d="M0 140h900M0 280h900M0 420h900M0 560h900"/><path d="M120 0v620M330 0v620M540 0v620M750 0v620"/></g>
+  <circle cx="740" cy="180" r="180" fill="#d8232a" opacity=".12" filter="url(#b)"/>
+  <path d="M85 395c22-64 74-99 163-111l124-17c88-73 178-104 287-98l96 10c65 7 118 38 174 88l40 38c23 22 31 55 20 92l-16 49-80 21c-10-64-58-103-127-103-73 0-124 45-133 115H326c-9-69-59-113-132-113-66 0-116 41-128 104l-49-18 23-38 45-19Z" fill="#9aa4a9"/>
+  <path d="M382 267c80-60 152-82 244-77l92 10c56 7 96 26 139 67H382Z" fill="#121b21" stroke="#eff5f8" stroke-opacity=".28" stroke-width="2"/>
+  <path d="M106 381c260 34 542 25 833-30" stroke="#fff" stroke-opacity=".32" stroke-width="3"/>
+  <path d="M810 300l78 18" stroke="#ff4b52" stroke-width="6" stroke-linecap="round"/>
+  <g fill="#050606"><circle cx="196" cy="468" r="67"/><circle cx="766" cy="468" r="67"/></g>
+  <g fill="none" stroke="#fff" stroke-opacity=".58"><circle cx="196" cy="468" r="39"/><circle cx="766" cy="468" r="39"/></g>
+  <rect x="52" y="54" width="270" height="92" fill="#050607" opacity=".64" stroke="#fff" stroke-opacity=".14"/>
+  <text x="78" y="91" fill="#fff" opacity=".78" font-family="Arial" font-size="16" letter-spacing="5">KR MARKET</text>
+  <text x="78" y="122" fill="#fff" opacity=".42" font-family="Arial" font-size="12" letter-spacing="3">DEMO / PORTFOLIO</text>
+</svg>

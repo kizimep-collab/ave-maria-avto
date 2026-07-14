@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Japan import direction demo visual</title>
+  <desc id="desc">Self-made portfolio-safe interface visual for Japan auctions</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1c2124"/><stop offset=".55" stop-color="#090b0c"/><stop offset="1" stop-color="#21070a"/></linearGradient><filter id="b"><feGaussianBlur stdDeviation="22"/></filter></defs>
+  <rect width="900" height="620" fill="url(#bg)"/>
+  <g opacity=".12" stroke="#fff"><path d="M0 120h900M0 260h900M0 400h900M0 540h900"/><path d="M140 0v620M340 0v620M540 0v620M740 0v620"/></g>
+  <circle cx="760" cy="120" r="160" fill="#d8232a" opacity=".14" filter="url(#b)"/>
+  <path d="M105 404c18-58 73-92 157-104l116-18c82-70 165-101 266-99l96 7c56 5 102 32 152 76l34 31c24 23 30 55 20 93l-14 47-74 18c-9-56-52-91-111-91-63 0-107 39-115 100H333c-8-59-52-96-115-96-59 0-102 35-113 91l-46-15 17-34 29-6Z" fill="#aeb6ba" opacity=".9"/>
+  <path d="M400 282c74-57 136-78 222-78l88 7c49 5 82 22 122 60l-432 11Z" fill="#152026" stroke="#eff5f8" stroke-opacity=".3" stroke-width="2"/>
+  <path d="M120 388c240 27 500 18 785-38" stroke="#fff" stroke-opacity=".35" stroke-width="3"/>
+  <path d="M790 292l78 23" stroke="#ff4b52" stroke-width="6" stroke-linecap="round"/>
+  <g fill="#050606"><circle cx="222" cy="458" r="62"/><circle cx="748" cy="458" r="62"/></g>
+  <g fill="none" stroke="#fff" stroke-opacity=".58"><circle cx="222" cy="458" r="36"/><circle cx="748" cy="458" r="36"/></g>
+  <rect x="52" y="54" width="260" height="92" fill="#050607" opacity=".64" stroke="#fff" stroke-opacity=".14"/>
+  <text x="78" y="91" fill="#fff" opacity=".78" font-family="Arial" font-size="16" letter-spacing="5">JP AUCTION</text>
+  <text x="78" y="122" fill="#fff" opacity=".42" font-family="Arial" font-size="12" letter-spacing="3">DEMO / PORTFOLIO</text>
+</svg>

@@ -1,0 +1,3 @@
+﻿User-agent: *
+Allow: /
+Sitemap: https://kizimep-collab.github.io/ave-maria/sitemap.xml

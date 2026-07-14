@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200" role="img" aria-labelledby="title desc">
+  <title id="title">AVE MARIYA AUTO premium demo car render</title>
+  <desc id="desc">Self-made portfolio-safe automotive render for car import landing page</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22282c"/><stop offset=".38" stop-color="#0b0e10"/><stop offset=".74" stop-color="#090607"/><stop offset="1" stop-color="#25090c"/>
+    </linearGradient>
+    <radialGradient id="key" cx="54%" cy="40%" r="44%">
+      <stop stop-color="#e8edf0" stop-opacity=".28"/><stop offset=".42" stop-color="#667178" stop-opacity=".09"/><stop offset="1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="body" x1=".08" y1=".06" x2=".93" y2=".98">
+      <stop stop-color="#f2f5f5"/><stop offset=".08" stop-color="#9ea8ad"/><stop offset=".2" stop-color="#2a3034"/><stop offset=".38" stop-color="#0b0e10"/><stop offset=".55" stop-color="#50575b"/><stop offset=".66" stop-color="#121517"/><stop offset=".83" stop-color="#8f979b"/><stop offset="1" stop-color="#08090a"/>
+    </linearGradient>
+    <linearGradient id="glass" x1=".15" y1=".05" x2=".9" y2=".95">
+      <stop stop-color="#cbd5da" stop-opacity=".82"/><stop offset=".25" stop-color="#465059" stop-opacity=".7"/><stop offset=".52" stop-color="#0c1115"/><stop offset=".85" stop-color="#020304"/><stop offset="1" stop-color="#354047"/>
+    </linearGradient>
+    <linearGradient id="paintCut" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#fff" stop-opacity=".56"/><stop offset=".19" stop-color="#fff" stop-opacity=".05"/><stop offset=".49" stop-color="#000" stop-opacity=".45"/><stop offset=".74" stop-color="#f4f7f8" stop-opacity=".22"/><stop offset="1" stop-color="#000" stop-opacity=".5"/>
+    </linearGradient>
+    <radialGradient id="tire"><stop offset=".35" stop-color="#15191b"/><stop offset=".42" stop-color="#6d7478"/><stop offset=".49" stop-color="#0d0f10"/><stop offset=".72" stop-color="#030404"/><stop offset="1" stop-color="#000"/></radialGradient>
+    <radialGradient id="rim"><stop stop-color="#0c0e0f"/><stop offset=".42" stop-color="#c6cbce"/><stop offset=".65" stop-color="#42494d"/><stop offset="1" stop-color="#060707"/></radialGradient>
+    <filter id="blur36"><feGaussianBlur stdDeviation="36"/></filter>
+    <filter id="blur16"><feGaussianBlur stdDeviation="16"/></filter>
+    <filter id="shadow" x="-20%" y="-30%" width="145%" height="170%"><feDropShadow dx="0" dy="34" stdDeviation="34" flood-color="#000" flood-opacity=".92"/></filter>
+    <filter id="redGlow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="14" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="carClip"><path d="M108 780c20-77 95-135 216-170l235-58c126-145 275-216 466-225l270 6c132 5 247 59 364 184l78 48c48 30 63 74 56 140l-26 130-157 44c-12-129-105-212-236-212-137 0-232 92-236 226H675c-6-134-101-226-237-226-131 0-225 87-232 219l-114-27-18-65 34-14z"/></clipPath>
+  </defs>
+  <rect width="1800" height="1200" fill="url(#bg)"/>
+  <rect width="1800" height="1200" fill="url(#key)"/>
+  <circle cx="1510" cy="250" r="360" fill="#d8232a" opacity=".13" filter="url(#blur36)"/>
+  <circle cx="420" cy="880" r="390" fill="#d7dcdf" opacity=".035" filter="url(#blur36)"/>
+  <g opacity=".12" stroke="#fff">
+    <path d="M0 190h1800M0 390h1800M0 590h1800M0 790h1800M0 990h1800"/>
+    <path d="M210 0v1200M530 0v1200M850 0v1200M1170 0v1200M1490 0v1200"/>
+  </g>
+  <path d="M0 932h1800" stroke="#e7eef2" stroke-opacity=".22"/>
+  <ellipse cx="930" cy="950" rx="820" ry="95" fill="#000" opacity=".86" filter="url(#blur36)"/>
+  <ellipse cx="930" cy="960" rx="620" ry="25" fill="#dce3e7" opacity=".13" filter="url(#blur16)"/>
+  <g filter="url(#shadow)">
+    <path d="M108 780c20-77 95-135 216-170l235-58c126-145 275-216 466-225l270 6c132 5 247 59 364 184l78 48c48 30 63 74 56 140l-26 130-157 44c-12-129-105-212-236-212-137 0-232 92-236 226H675c-6-134-101-226-237-226-131 0-225 87-232 219l-114-27-18-65 34-14z" fill="url(#body)"/>
+    <g clip-path="url(#carClip)">
+      <rect x="70" y="535" width="1730" height="370" fill="url(#paintCut)" opacity=".58"/>
+      <path d="M95 675c390-108 800-126 1230-80 190 20 335 62 480 124" fill="none" stroke="#fff" stroke-opacity=".15" stroke-width="88" filter="url(#blur16)"/>
+      <path d="M86 802c505 54 1060 38 1710-88" fill="none" stroke="#010202" stroke-opacity=".72" stroke-width="86"/>
+      <path d="M98 750c520 48 1050 31 1680-92" fill="none" stroke="#f7fbfd" stroke-opacity=".42" stroke-width="5"/>
+      <path d="M240 615c430-54 740-38 1090 48" fill="none" stroke="#d8232a" stroke-opacity=".16" stroke-width="18" filter="url(#blur16)"/>
+    </g>
+  </g>
+  <path d="M612 542c112-118 244-174 414-181l252 6c113 5 200 43 302 136l-968 39Z" fill="url(#glass)" stroke="#edf4f7" stroke-opacity=".3" stroke-width="3"/>
+  <path d="M1017 362l-4 173M1288 371l91 152" stroke="#e7eef2" stroke-opacity=".28" stroke-width="6"/>
+  <path d="M660 516c104-78 210-116 344-122" fill="none" stroke="#fff" stroke-opacity=".32" stroke-width="14" filter="url(#blur16)"/>
+  <path d="M596 558l-31 214M1590 516l-64 256" stroke="#030405" stroke-width="7" opacity=".78"/>
+  <path d="M1100 583l-13 224" stroke="#040506" stroke-opacity=".5" stroke-width="4"/>
+  <path d="M1118 613h76" stroke="#dbe1e4" stroke-opacity=".52" stroke-width="8" stroke-linecap="round"/>
+  <path d="M1685 560l100 40 8 56-158-38 16-42Z" fill="#8d070c" filter="url(#redGlow)"/>
+  <path d="M1682 574l98 32" stroke="#ff4d54" stroke-width="11" stroke-linecap="round" opacity=".96"/>
+  <path d="M110 704l204-51 47 44-242 60Z" fill="#effaff" opacity=".96"/>
+  <path d="M128 707l172-39" stroke="#fff" stroke-width="12" stroke-linecap="round" filter="url(#blur16)"/>
+  <g transform="translate(438 870)">
+    <circle r="166" fill="url(#tire)"/>
+    <circle r="104" fill="url(#rim)" stroke="#cbd1d4" stroke-opacity=".48" stroke-width="3"/>
+    <g stroke="#141719" stroke-width="17" stroke-linecap="round"><path d="M0-88v58M84-27 27-9M52 71 16 23M-52 71l36-48M-84-27l57 18"/></g>
+    <circle r="34" fill="#747b7f"/><circle r="16" fill="#0b0d0e"/><circle r="7" fill="#d8232a"/>
+  </g>
+  <g transform="translate(1372 870)">
+    <circle r="166" fill="url(#tire)"/>
+    <circle r="104" fill="url(#rim)" stroke="#cbd1d4" stroke-opacity=".48" stroke-width="3"/>
+    <g stroke="#141719" stroke-width="17" stroke-linecap="round"><path d="M0-88v58M84-27 27-9M52 71 16 23M-52 71l36-48M-84-27l57 18"/></g>
+    <circle r="34" fill="#747b7f"/><circle r="16" fill="#0b0d0e"/><circle r="7" fill="#d8232a"/>
+  </g>
+  <path d="M210 850c98-48 262-44 370 8M1162 854c104-50 284-47 408 7" fill="none" stroke="#e9eef1" stroke-opacity=".16" stroke-width="5"/>
+  <path d="M118 110h310" stroke="#d8232a" stroke-width="2" opacity=".68"/>
+  <text x="118" y="92" fill="#fff" opacity=".36" font-family="Arial, sans-serif" font-size="18" letter-spacing="7">AVE MARIYA / DEMO IMPORT RENDER</text>
+  <text x="1655" y="1085" text-anchor="end" fill="#fff" opacity=".22" font-family="Arial, sans-serif" font-size="14" letter-spacing="4">PORTFOLIO-SAFE VISUAL</text>
+</svg>
